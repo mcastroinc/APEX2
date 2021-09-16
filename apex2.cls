@@ -4,4 +4,6 @@ trigger AccountTrigger on Account (before insert, before update) {
    for ( Account a : Trigger.new ) {
         //Good: Iterate through the trigger.new array instead.
    }
-}//hello
+}
+
+//hello
